@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d8fbff;
+}
+
+.on-change{
+    border: 1px solid black;
+    text-align: center;
+    padding: 16px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.num-generate{
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #00aaff;
+}
+
+
+.input-container{
+    text-align: center;
+    width: 100%;
+}
+
+.input-message {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    margin: 8px 0;
+}
+
+.input-message:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.submit-btn{
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #7fff00;
+} 
+.lifecycle-componet{
+    text-align: center;
+}
+
+
+.jobs-component{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+}
